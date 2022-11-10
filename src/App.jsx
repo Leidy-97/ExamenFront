@@ -1,4 +1,8 @@
 import React from 'react'
+import Posteos from './components/Posteos';
+import data from './data.json'
+import Estatus from './components/Estatus';
+
 // El componente App es el padre de:
 // - Estatus
 // - Posteos
@@ -7,11 +11,15 @@ import React from 'react'
 // PROPS: App deberá pasar por props lo necesario a sus componenetes internos para que manipulen o lean su estado.
 
 function App() {
+  function handlerClickedPosteos(posteo){
 
+  }
   return (
     <div className="App">
       <Estatus />
-      <Posteos />
+      <Posteos 
+      
+      />
     </div>
   );
 }
